@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: var(--Poppins-500);
+}
+:root {
+    --Open-sans-500: 'Open Sans', sans-serif;
+    --Poppins-500: 'Poppins', sans-serif;
+    --Roboto-500: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+}
