@@ -476,20 +476,20 @@ ____________ main-section css End here _____________
 
 
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ more-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 
- .more-section{
+.more-section {
     margin: 100px 0px;
     display: none;
     justify-content: center;
     align-items: center;
 }
 
-.more-button{
+.more-button {
     padding: 12px 26px;
     background-color: rgba(221, 0, 0, 1);
     color: #ffffff;
@@ -497,8 +497,9 @@ ____________ more-section css Start from here _____________
     border-radius: 5px;
     cursor: pointer;
 }
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .more-section{
+    .more-section {
         margin: 100px 0px;
         display: flex;
         justify-content: center;
@@ -507,14 +508,14 @@ ____________ more-section css Start from here _____________
 }
 
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ more-section css end here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 
 
- 
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Footer-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

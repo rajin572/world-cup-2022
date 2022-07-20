@@ -2,7 +2,7 @@
 _____________common css start from here______________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
- * {
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -393,12 +393,13 @@ ____________ main-section css start from here _____________
     grid-gap: 20px;
 }
 
-.group{
+.group {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #E8E8E8;
 }
-.group img{
+
+.group img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
@@ -469,20 +470,20 @@ ____________ main-section css End here _____________
 
 
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ more-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 
- .more-section{
+.more-section {
     margin: 100px 0px;
     display: none;
     justify-content: center;
     align-items: center;
 }
 
-.more-button{
+.more-button {
     padding: 12px 26px;
     background-color: rgba(221, 0, 0, 1);
     color: #ffffff;
@@ -490,8 +491,9 @@ ____________ more-section css Start from here _____________
     border-radius: 5px;
     cursor: pointer;
 }
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .more-section{
+    .more-section {
         margin: 100px 0px;
         display: flex;
         justify-content: center;
@@ -500,7 +502,7 @@ ____________ more-section css Start from here _____________
 }
 
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ more-section css end here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
