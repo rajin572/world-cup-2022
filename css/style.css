@@ -104,7 +104,7 @@ header {
 
 @media screen and (min-width: 993px) and (max-width: 1024px) {
     header {
-        padding:30px 30px 0px;
+        padding: 30px 30px 0px;
     }
 
     .header-title {
@@ -125,7 +125,7 @@ header {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     header {
-        padding:30px 20px 0px;
+        padding: 30px 20px 0px;
         margin: 20px auto;
     }
 
@@ -185,9 +185,11 @@ header {
         text-align: center;
         padding: 30px 20px 0px;
     }
+
     .half-container {
         width: 90%;
     }
+
     .half-container:first-child {
         margin-bottom: 20px;
     }
@@ -244,22 +246,24 @@ header {
         font-size: 7px;
     }
 }
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Header css End here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ main-section css start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
- /* menu-section start from here */
+/* menu-section start from here */
 
-.main-section{
+.main-section {
     width: 90%;
-    margin:50px auto;
+    margin: 50px auto;
     display: flex;
 }
-.menu{
+
+.menu {
     height: 312px;
     width: 312px;
     display: flex;
@@ -271,10 +275,12 @@ ____________ main-section css start from here _____________
     border-radius: 10px;
     margin-right: 20px;
 }
-.menu-items{
+
+.menu-items {
     list-style: none;
 }
-.menu-links{
+
+.menu-links {
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -285,52 +291,58 @@ ____________ main-section css start from here _____________
     color: black;
     border-radius: 5px;
 }
-#active{
+
+#active {
     background-color: #ff4500;
     color: white;
 }
-@media screen and (min-width: 1025px) and  (max-width: 1200px) {
-    .menu{
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .menu {
         height: 250px;
         width: 250px;
     }
-    
-    .menu-links{
+
+    .menu-links {
         font-size: 17px;
         width: 200px;
         padding: 12px 0px;
     }
 }
+
 @media screen and (min-width: 993px) and (max-width: 1024px) {
-    .menu{
+    .menu {
         height: 180px;
         width: 180px;
         padding: 20px;
     }
 
-    .menu-links{
+    .menu-links {
         display: inline-block;
         font-size: 15px;
         width: 150px;
         padding: 7px 0px;
     }
 }
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .main-section{
+    .main-section {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         height: 100px;
         width: 100%;
         padding: 15px;
-        margin:20px 0px;
+        margin: 20px 0px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         background-color: #ffffff;
     }
-    .menu-links{
+
+    .menu-links {
         width: 150px;
         font-size: 15px;
         padding: 15px 0px;
@@ -340,21 +352,24 @@ ____________ main-section css start from here _____________
         border-radius: 5px;
     }
 }
+
 @media screen and (max-width: 576px) {
-    .main-section{
+    .main-section {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         height: 180px;
         width: 180px;
         padding: 15px;
-        margin:20px auto;
+        margin: 20px auto;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         background-color: #ffffff;
     }
-    .menu-links{
+
+    .menu-links {
         width: 150px;
         font-size: 10px;
         padding: 10px 0px;
@@ -364,29 +379,34 @@ ____________ main-section css start from here _____________
         border-radius: 5px;
     }
 }
+
 /* menu Section End */
 
 
 
 /* Blog section start */
 
-.blog-section{
+.blog-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
 .blog {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #E8E8E8;
 }
-.blog img{
+
+.blog img {
     width: 100%;
 }
-.blog-details{
+
+.blog-details {
     padding: 20px;
 }
-.blog-details button{
+
+.blog-details button {
     padding: 3px 15px;
     font-size: 16px;
     background-color: white;
@@ -394,44 +414,53 @@ ____________ main-section css start from here _____________
     border: 1px solid rgba(22, 22, 22, 1);
     cursor: pointer;
 }
-.blog-details button:hover{
+
+.blog-details button:hover {
     background-color: #000000;
     color: white;
     border: 1px solid #000000;
 }
-.blog-details h3{
+
+.blog-details h3 {
     font-size: 18px;
     margin: 20px 0px;
 }
-.blog-info{
+
+.blog-info {
     color: rgba(22, 22, 22, 0.7);
     font-size: 15px;
 }
-.time-info{
+
+.time-info {
     margin-right: 10px;
 }
-.info-text{
+
+.info-text {
     margin-left: 5px;
 }
+
 @media screen and (max-width: 1024px) {
-    .blog-details button{
+    .blog-details button {
         padding: 3px 10px;
         font-size: 10px;
     }
-    .blog-details h3{
+
+    .blog-details h3 {
         font-size: 13px;
         margin: 20px 0px;
     }
 }
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .blog-section{
+    .blog-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
     }
 }
+
 @media screen and (max-width: 576px) {
-    .blog-section{
+    .blog-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
@@ -440,7 +469,7 @@ ____________ main-section css start from here _____________
 
 /* Blog Section End */
 
- /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ main-section css End here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -448,23 +477,82 @@ ____________ main-section css End here _____________
 
 
 
-  /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Footer-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
- footer{
+footer {
     width: 100%;
     background-color: black;
     color: white;
- }
- .footer-section{
+}
+
+.footer-section {
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
- }
- .footer-title{
+    padding: 50px 0px;
+}
+
+.footer-title {
     font-size: 40px;
     margin-bottom: 50px;
- }
+}
+
+.footer-section hr {
+    background-color: #DFDFDF;
+    border: 1px solid #DFDFDF;
+}
+
+.footer-menu {
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-menu-items {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 15px;
+    padding: 7px 15px;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon a {
+    color: white;
+    font-size: 30px;
+    margin: 0px 20px;
+}
+
+@media screen and (min-width: 301px) and (max-width: 576px) {
+    .footer-menu {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer-menu {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .social-icon a {
+        color: white;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+}
