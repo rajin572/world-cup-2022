@@ -476,7 +476,45 @@ ____________ main-section css End here _____________
 
 
 
+ /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+____________ more-section css Start from here _____________
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+
+
+ .more-section{
+    margin: 100px 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-button{
+    padding: 12px 26px;
+    background-color: rgba(221, 0, 0, 1);
+    color: #ffffff;
+    border: 1px solid rgba(221, 0, 0, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .more-section{
+        margin: 100px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+ /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+____________ more-section css end here _____________
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+ 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Footer-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -560,11 +598,3 @@ footer {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Footer-section css end here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-____________ Upcoming-match-section css Start from here _____________
- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.country-img{
-    width: 30%;
-}
