@@ -2,7 +2,7 @@
 _____________common css start from here______________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-* {
+ * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -386,84 +386,87 @@ ____________ main-section css start from here _____________
 
 /* Blog section start */
 
-.blog-section {
+.upcoming-section {
+    flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
 
-.blog {
+.upcoming {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #E8E8E8;
 }
 
-.blog img {
-    width: 100%;
+.upcoming-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.upcoming-image img{
+    width: 35%;
 }
 
-.blog-details {
+.upcoming-details {
     padding: 20px;
 }
 
-.blog-details button {
-    padding: 3px 15px;
-    font-size: 16px;
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgba(22, 22, 22, 1);
-    cursor: pointer;
-}
 
-.blog-details button:hover {
-    background-color: #000000;
-    color: white;
-    border: 1px solid #000000;
-}
-
-.blog-details h3 {
+.upcoming-details h3 {
+    text-align: center;
     font-size: 18px;
     margin: 20px 0px;
 }
-
-.blog-info {
-    color: rgba(22, 22, 22, 0.7);
+.upcoming-details p {
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
     font-size: 15px;
 }
 
-.time-info {
-    margin-right: 10px;
-}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
 
-.info-text {
-    margin-left: 5px;
-}
-
-@media screen and (max-width: 1024px) {
-    .blog-details button {
-        padding: 3px 10px;
-        font-size: 10px;
+    .upcoming-details h3 {
+        font-size: 15px;
+        margin: 20px 0px;
     }
+}
 
-    .blog-details h3 {
-        font-size: 13px;
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+
+    .upcoming-details h3 {
+        font-size: 15px;
         margin: 20px 0px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .blog-section {
+    .upcoming-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
     }
 }
 
-@media screen and (max-width: 576px) {
-    .blog-section {
+@media screen and (min-width: 261px) and (max-width: 576px) {
+    .upcoming-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+
+    .upcoming-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .upcoming-details h3 {
+        font-size: 12px;
     }
 }
 
@@ -565,6 +568,3 @@ ____________ Footer-section css end here _____________
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ____________ Upcoming-match-section css Start from here _____________
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.country-img{
-    width: 30%;
-}
